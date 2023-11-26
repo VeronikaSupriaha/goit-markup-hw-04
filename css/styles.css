@@ -329,14 +329,14 @@ img {
 }
 
 .cards-descriptions {
-    padding-top: 32px 0;
+    padding: 32px 0;
     text-align: center;
     padding-bottom: 8px;
 }
 
 .social-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     padding-bottom: 32px;
@@ -367,21 +367,10 @@ img {
 
 
 
-.instagram-icon {
+.icon-fill {
     fill: #f4f4fd;
 }
 
-.twitter-icon {
-    fill: #f4f4fd;
-}
-
-.facebook-icon {
-    fill: #f4f4fd;
-}
-
-.linkedin-icon {
-    fill: #f4f4fd;
-}
 
 /*Our Portfolio*/
 
