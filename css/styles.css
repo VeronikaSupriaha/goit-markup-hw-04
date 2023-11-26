@@ -339,7 +339,6 @@ img {
     gap: 24px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 32px;
 }
 
 .social-item {
@@ -381,7 +380,9 @@ img {
     row-gap: 48px;  
 }
 
-.portfolio-item {   
+.portfolio-item {  
+    position: relative;
+    overflow: hidden;
     width: calc((100% - 48px) / 3);
     padding-left: 0;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -420,14 +421,11 @@ img {
 
 }
 
-.overlay-container {
-    position: relative;
-    overflow: hidden;
-}
-
-.overlay-container:hover .overlay {
+.portfolio-item:hover .overlay {
     transform: translateY(0);
 }
+
+
 
 /*Page footer*/
 
