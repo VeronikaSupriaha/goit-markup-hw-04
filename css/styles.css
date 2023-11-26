@@ -140,7 +140,7 @@ p {
 .navigation-item:hover,
 .navigation-item:focus {
     color: #404BBF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
  
  
@@ -329,7 +329,7 @@ img {
 }
 
 .cards-descriptions {
-    padding-top: 32px ;
+    padding-top: 32px 0;
     text-align: center;
     padding-bottom: 8px;
 }
